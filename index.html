@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background Video -->
+    <video id="backgroundVideo" autoplay loop muted>
+      <source id="videoSource" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Weather Dashboard Container -->
+    <div class="container">
+      <h1>Weather Dashboard</h1>
+      <input
+        type="text"
+        id="locationInput"
+        placeholder="Enter a city or location"
+      />
+      <button id="searchButton">Search</button>
+      <div id="weatherDetails" class="weather-details"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
